@@ -18,6 +18,13 @@ body {
     color: var(--text-color);
     line-height: 1.6;
 }
+.skills-list ul {
+  list-style-type: disc; 
+  padding-left: 20px;    
+  
+  column-count: 2;
+  column-gap: 40px; 
+}
 
 /* --- Main Layout Container --- */
 .portfolio-container {
