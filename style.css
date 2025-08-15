@@ -1,9 +1,9 @@
 /* --- Global Styles & Variables --- */
 :root {
-    --primary-color: #00bcd4; /* A nice teal color */
-    --dark-color: #2c3e50;    /* A dark slate blue */
-    --light-color: #ecf0f1;   /* A light gray */
-    --text-color: #34495e;    /* A softer dark text color */
+    --primary-color: #ac64f0; /* A vibrant blue violet for highlights and buttons */
+    --dark-color: #5a4ea4;    /* A dark slate blue for the sidebar background */
+    --light-color: #E6E6FA;   /* A light lavender for the sidebar text */
+    --text-color: #333;       /* A standard dark gray for main text */
 }
 
 * {
@@ -49,7 +49,7 @@ body {
   background-color: #f0f8ff; 
   color: #2c3e50;            
   border: 2px solid #007bff; 
-  border-radius: 8px;         
+  border-radius: 8px;        
 }
 
 .sidebar h1 {
@@ -151,7 +151,7 @@ body {
 }
 
 .cta-button:hover {
-    background-color: #0097a7; /* Darker shade of primary color */
+    background-color: #7322bf; /* A darker shade of the new violet */
     transform: translateY(-2px);
 }
 
